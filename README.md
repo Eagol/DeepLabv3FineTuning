@@ -41,7 +41,7 @@ Options:
 To run the code with the CrackForest dataset and store the results in folder called CFExp use the following command.
 
 ```
-python main.py --data-directory CrackForest --exp_directory CFExp
+python main.py --data-directory dataset --exp_directory output
 ```
 
 The datahandler module has two functions for creating datasets fron single and different folders.

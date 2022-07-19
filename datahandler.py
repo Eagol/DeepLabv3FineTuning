@@ -41,6 +41,9 @@ def get_dataloader_sep_folder(data_dir: str,
     """
     data_transforms = transforms.Compose([transforms.ToTensor()])
 
+   
+
+
     image_datasets = {
         x: SegmentationDataset(root=Path(data_dir) / x,
                                transforms=data_transforms,
