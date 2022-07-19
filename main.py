@@ -9,7 +9,6 @@ import datahandler
 from model import createDeepLabv3
 from trainer import train_model
 
-
 @click.command()
 @click.option("--data-directory",
               required=True,
